@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>AllBooks</servlet-name>
+        <servlet-class>Servlet.allBook</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AllBooks</servlet-name>
+        <url-pattern>/allBook</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>SearchbyId</servlet-name>
+        <servlet-class>Servlet.Search</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchbyId</servlet-name>
+        <url-pattern>/search</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>SearchbyTitle</servlet-name>
+        <servlet-class>Servlet.searchByTitle</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchbyTitle</servlet-name>
+        <url-pattern>/searchbyTitle</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>SearchbyAuthor</servlet-name>
+        <servlet-class>Servlet.SearchByAuthor</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchbyAuthor</servlet-name>
+        <url-pattern>/searchbyAuthor</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>SearchbySubject</servlet-name>
+        <servlet-class>Servlet.SearchBySubject</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchbySubject</servlet-name>
+        <url-pattern>/searchbySubject</url-pattern>
+    </servlet-mapping>
+</web-app>

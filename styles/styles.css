@@ -1,0 +1,12 @@
+body{
+    width: 100%;
+    background-color: aqua;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+h2{
+    color: red;
+}
